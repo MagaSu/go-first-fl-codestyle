@@ -33,7 +33,7 @@ func defence(charName, charClass string) string {
 	}
 }
 
-// обратите внимание на "if else" и на "else"
+// обратите внимание на "if else" и на "else"  // Я немного борщанул и здесь и везде использовал "switch case", но это не страшно, так даже лучше читается
 func special(charName, charClass string) string {
 	switch charClass {
 	case "warrior":
@@ -47,7 +47,7 @@ func special(charName, charClass string) string {
 	}
 }
 
-// здесь обратите внимание на имена параметров
+// здесь обратите внимание на имена параметров // И параметры функции исправил еще в первом задании.
 func startTraining(charName, charClass string) string {
 	switch charClass {
 	case "warrior":
